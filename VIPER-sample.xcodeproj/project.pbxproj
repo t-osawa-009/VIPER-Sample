@@ -12,6 +12,10 @@
 		177DFAA32187492C00909E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177DFAA12187492C00909E61 /* Main.storyboard */; };
 		177DFAA52187492E00909E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177DFAA42187492E00909E61 /* Assets.xcassets */; };
 		177DFAA82187492E00909E61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177DFAA62187492E00909E61 /* LaunchScreen.storyboard */; };
+		177DFAB821874C4400909E61 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177DFAB721874C4300909E61 /* RootRouter.swift */; };
+		177DFABA2187508C00909E61 /* RootWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177DFAB92187508C00909E61 /* RootWindow.swift */; };
+		177DFABC218750EF00909E61 /* RootWindowPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177DFABB218750EF00909E61 /* RootWindowPresenter.swift */; };
+		177DFABE2187541A00909E61 /* RootWindowInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177DFABD2187541A00909E61 /* RootWindowInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		177DFAA42187492E00909E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		177DFAA72187492E00909E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		177DFAA92187492E00909E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		177DFAB721874C4300909E61 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		177DFAB92187508C00909E61 /* RootWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWindow.swift; sourceTree = "<group>"; };
+		177DFABB218750EF00909E61 /* RootWindowPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWindowPresenter.swift; sourceTree = "<group>"; };
+		177DFABD2187541A00909E61 /* RootWindowInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWindowInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,7 @@
 			children = (
 				177DFA9F2187492C00909E61 /* ViewController.swift */,
 				177DFAA12187492C00909E61 /* Main.storyboard */,
+				177DFAB92187508C00909E61 /* RootWindow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -73,6 +82,7 @@
 		177DFAB0218749AE00909E61 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
+				177DFABD2187541A00909E61 /* RootWindowInteractor.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -80,6 +90,7 @@
 		177DFAB1218749BC00909E61 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				177DFABB218750EF00909E61 /* RootWindowPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -94,6 +105,7 @@
 		177DFAB3218749D800909E61 /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				177DFAB721874C4300909E61 /* RootRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -200,7 +212,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				177DFAA02187492C00909E61 /* ViewController.swift in Sources */,
+				177DFABC218750EF00909E61 /* RootWindowPresenter.swift in Sources */,
+				177DFAB821874C4400909E61 /* RootRouter.swift in Sources */,
 				177DFA9E2187492C00909E61 /* AppDelegate.swift in Sources */,
+				177DFABE2187541A00909E61 /* RootWindowInteractor.swift in Sources */,
+				177DFABA2187508C00909E61 /* RootWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
