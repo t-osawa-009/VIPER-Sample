@@ -72,9 +72,9 @@
 		177DFAAF218749A000909E61 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				177DFABF2187586400909E61 /* Root */,
 				177DFA9F2187492C00909E61 /* ViewController.swift */,
 				177DFAA12187492C00909E61 /* Main.storyboard */,
-				177DFAB92187508C00909E61 /* RootWindow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -82,7 +82,7 @@
 		177DFAB0218749AE00909E61 /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				177DFABD2187541A00909E61 /* RootWindowInteractor.swift */,
+				177DFAC02187587E00909E61 /* Root */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -90,7 +90,7 @@
 		177DFAB1218749BC00909E61 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				177DFABB218750EF00909E61 /* RootWindowPresenter.swift */,
+				177DFAC12187588600909E61 /* Root */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -105,7 +105,7 @@
 		177DFAB3218749D800909E61 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				177DFAB721874C4300909E61 /* RootRouter.swift */,
+				177DFAC22187589100909E61 /* Root */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -138,6 +138,38 @@
 				177DFAA62187492E00909E61 /* LaunchScreen.storyboard */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		177DFABF2187586400909E61 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				177DFAB92187508C00909E61 /* RootWindow.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		177DFAC02187587E00909E61 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				177DFABD2187541A00909E61 /* RootWindowInteractor.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		177DFAC12187588600909E61 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				177DFABB218750EF00909E61 /* RootWindowPresenter.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		177DFAC22187589100909E61 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				177DFAB721874C4300909E61 /* RootRouter.swift */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
