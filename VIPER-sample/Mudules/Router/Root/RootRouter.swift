@@ -29,7 +29,7 @@ final class RootRouter {
     weak var window: UIWindow?
     
     func setRoot() {
-        window?.rootViewController = UIViewController()
+        window?.rootViewController = TopRouter.assembleModule()
         window?.makeKeyAndVisible()
     }
 }
